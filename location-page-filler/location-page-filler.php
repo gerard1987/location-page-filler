@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name:  LocUrl
-Plugin URI:   https://github.com/gerard1987/LocUrl.git
+Plugin Name:  location-page-filler
+Plugin URI:   https://github.com/gerard1987/location-page-filler
 Description:  Retrieve url data from database and post the url's to the desired page.
 Version:      0.1
 Author:       Gerard de Way
-Author URI:   https://github.com/gerard1987/LocUrl.git
+Author URI:   https://github.com/gerard1987/location-page-filler
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  wporg
@@ -26,7 +26,7 @@ include_once plugin_dir . 'includes/write_url_data.php';
 // Plugin updater
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://advandm297.297.axc.nl/advanza-check-url-data.json',
+	'https://github.com/gerard1987/location-page-filler.json',
 	__FILE__,
 	'write_url_to_page_updater'
 );
