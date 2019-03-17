@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name:  Advanza check Url data 
-Plugin URI:   http://www.waydesign.nl
+Plugin Name:  location-page-filler 
+Plugin URI:   https://github.com/gerard1987/location-page-filler
 Description:  Retrieve url data from database
 Version:      0.1
-Author:       http://www.waydesign.nl
-Author URI:   http://www.waydesign.nl
+Author:       Gerard de Way
+Author URI:   https://github.com/gerard1987/location-page-filler
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  wporg
@@ -17,7 +17,7 @@ Shortcode Syntax: [pagelinks]
 
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://advandm297.297.axc.nl/advanza-check-url-data.json',
+	'https://github.com/gerard1987/location-page-filler/location-page-filler.json',
 	__FILE__,
 	'write_url_data_updater'
 );
